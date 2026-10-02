@@ -1,0 +1,862 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>KUGOO — Тест-драйв электросамокатов</title>
+  </head>
+  <body class="front-page">
+    <div class="mobile-menu">
+      <button class="mobile-menu-close" type="button" aria-label="Закрыть меню">
+        ×
+      </button>
+      <ul class="mobile-menu-nav">
+        <li class="mobile-menu-nav-item">
+          <a href="#test-drive" class="mobile-menu-link">Тест-драйв</a>
+        </li>
+        <li class="mobile-menu-nav-item">
+          <a href="#training" class="mobile-menu-link">Обучение</a>
+        </li>
+        <li class="mobile-menu-nav-item">
+          <a href="#models" class="mobile-menu-link">Модели</a>
+        </li>
+        <li class="mobile-menu-nav-item">
+          <a href="#contacts" class="mobile-menu-link">Контакты</a>
+        </li>
+      </ul>
+      <a href="tel:+78005055461" class="navbar-phone mobile-phone"
+        >+7 (800) 505-54-61</a
+      >
+    </div>
+    <nav class="navbar">
+      <div class="navbar-top">
+        <div class="container navbar-top-wrapper">
+          <div class="navbar-top-links">
+            <a href="#" class="navbar-top-link">Сервис</a>
+            <a href="#" class="navbar-top-link">Сотрудничество</a>
+            <a href="#test-drive" class="navbar-top-link">Заказать звонок</a>
+            <div class="navbar-socials" aria-hidden="true">
+              <svg class="icon" width="12" height="12">
+                <use href="img/sprite.svg#viber"></use>
+              </svg>
+              <svg class="icon" width="12" height="12">
+                <use href="img/sprite.svg#whatsapp"></use>
+              </svg>
+              <svg class="icon" width="12" height="12">
+                <use href="img/sprite.svg#telegram"></use>
+              </svg>
+            </div>
+          </div>
+          <a href="tel:+78005055461" class="navbar-phone">+7 (800) 505-54-61</a>
+        </div>
+      </div>
+
+      <div class="container navbar-main">
+        <a href="./" class="header-logo">KUGOO</a>
+
+        <button
+          class="mobile-menu-toggle"
+          type="button"
+          aria-label="Открыть меню"
+        >
+          <span class="mobile-menu-toggle-line"></span>
+          <span class="mobile-menu-toggle-line"></span>
+          <span class="mobile-menu-toggle-line"></span>
+        </button>
+
+        <button class="catalog-button button" type="button">
+          <span class="menu">
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+          </span>
+          <span>Каталог</span>
+        </button>
+
+        <form class="search-form" action="#" method="get">
+          <label class="visually-hidden" for="search-q">Поиск по сайту</label>
+          <input
+            id="search-q"
+            class="search-input"
+            type="search"
+            name="q"
+            placeholder="Искать самокат KUGO"
+          />
+          <button class="search-button" type="submit" aria-label="Поиск">
+            <svg class="icon" width="16" height="16">
+              <use href="img/sprite.svg#search"></use>
+            </svg>
+          </button>
+        </form>
+
+        <div class="navbar-actions">
+          <a href="#" class="navbar-action" aria-label="Сравнение">
+            <svg class="icon" width="20" height="20">
+              <use href="img/sprite.svg#balance"></use>
+            </svg>
+          </a>
+          <a href="#" class="navbar-action" aria-label="Избранное">
+            <svg class="icon" width="20" height="20">
+              <use href="img/sprite.svg#heart"></use>
+            </svg>
+          </a>
+          <a href="#" class="navbar-action navbar-cart">
+            <svg class="icon" width="20" height="20">
+              <use href="img/sprite.svg#cart"></use>
+            </svg>
+            <span>Корзина</span></a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <header class="header" id="test-drive">
+        <div class="header-container">
+          <div class="header-content">
+            <p class="header-subtitle">в Москве без ограничения по времени</p>
+            <div class="header-wrapper">
+              <div class="header-info">
+                <div class="header-info-location">
+                  <svg class="icon" width="15" height="15">
+                    <use href="img/sprite.svg#location"></use>
+                  </svg>
+                  <address class="header-location-address">
+                    Восточно-Кругликовская улица, 86
+                  </address>
+                </div>
+                <div class="header-info-time">Вт - Сб 10:00 - 20:00</div>
+              </div>
+
+              <h1 class="header-title">
+                Запишитесь на&nbsp;бесплатный тест-драйв электросамокатов
+              </h1>
+
+              <div class="header-features">
+                <div class="header-feature">
+                  <div class="header-feature-icon">
+                    <svg class="feature-icon" width="16" height="16">
+                      <use href="img/sprite.svg#scooter"></use>
+                    </svg>
+                  </div>
+                  Поймете, какая модель вам подходит
+                </div>
+                <div class="header-feature">
+                  <div class="header-feature-icon">
+                    <svg class="feature-icon" width="16" height="16">
+                      <use href="img/sprite.svg#lightning"></use>
+                    </svg>
+                  </div>
+                  Проверите лучшие<br />
+                  самокаты в&nbsp;деле
+                </div>
+              </div>
+
+              <a href="#models" class="button header-button">Записаться</a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section class="section intro">
+        <div class="container">
+          <div class="intro-content-wrapper">
+            <div class="section-content">
+              <h2 class="section-title">
+                Определите максимально подходящую вам модель
+                не&nbsp;теоретически, а&nbsp;на&nbsp;практике
+              </h2>
+
+              <div class="intro-block">
+                <h3 class="intro-title">Тест-драйв поможет:</h3>
+                <ul class="intro-list">
+                  <li class="intro-list-item">
+                    <svg class="check-icon" width="22" height="22">
+                      <use href="img/sprite.svg#check"></use>
+                    </svg>
+                    Понять подходит ли вам конкретная модель;
+                  </li>
+                  <li class="intro-list-item">
+                    <svg class="check-icon" width="22" height="22">
+                      <use href="img/sprite.svg#check"></use>
+                    </svg>
+                    Испытать самокат в «реальной жизни»;
+                  </li>
+                  <li class="intro-list-item">
+                    <svg class="check-icon" width="22" height="22">
+                      <use href="img/sprite.svg#check"></use>
+                    </svg>
+                    Оценить удобство хранения и эксплуатации;
+                  </li>
+                  <li class="intro-list-item">
+                    <svg class="check-icon" width="22" height="22">
+                      <use href="img/sprite.svg#check"></use>
+                    </svg>
+                    Узнать реальные характеристики и возможности модели.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="img/Scooters.png"
+          alt="Электросамокаты KUGOO"
+          class="intro-photo"
+          loading="lazy"
+        />
+      </section>
+
+      <section class="section training" id="training">
+        <img
+          src="img/training.png"
+          alt="Обучение езде на электросамокате"
+          class="training-photo"
+          loading="lazy"
+        />
+        <div class="container">
+          <div class="training-content-wrapper">
+            <div class="section-content training-content">
+              <h2 class="section-title">
+                Научим правильной и&nbsp;безопасной езде в&nbsp;городе вас или
+                вашего ребенка
+              </h2>
+              <div class="training-block">
+                <h3 class="training-title">
+                  На обучении специалист расскажет:
+                </h3>
+                <ul class="training-list">
+                  <li class="training-list-item">
+                    <svg class="check-icon" width="22" height="22">
+                      <use href="img/sprite.svg#check"></use>
+                    </svg>
+                    Как подготовить самокат к поездке;
+                  </li>
+                  <li class="training-list-item">
+                    <svg class="check-icon" width="22" height="22">
+                      <use href="img/sprite.svg#check"></use>
+                    </svg>
+                    Как «завести» самокат;
+                  </li>
+                  <li class="training-list-item">
+                    <svg class="check-icon" width="22" height="22">
+                      <use href="img/sprite.svg#check"></use>
+                    </svg>
+                    Как вести себя во время поездки и обезопасить себя и
+                    окружающих;
+                  </li>
+                  <li class="training-list-item">
+                    <svg class="check-icon" width="22" height="22">
+                      <use href="img/sprite.svg#check"></use>
+                    </svg>
+                    Как складывать и раскладывать электросамокат;
+                  </li>
+                  <li class="training-list-item">
+                    <svg class="check-icon" width="22" height="22">
+                      <use href="img/sprite.svg#check"></use>
+                    </svg>
+                    Как ухаживать за своим девайсом.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section models" id="models">
+        <div class="container">
+          <h2 class="section-title section-title-center">
+            Сейчас для тест-драйва и&nbsp;обучения доступны следующие модели
+          </h2>
+
+          <div class="models-grid">
+            <div class="model-card">
+              <span class="model-label model-label-hit">ХИТ</span>
+              <button
+                class="model-favorite"
+                type="button"
+                aria-label="Добавить к сравнению"
+              >
+                <svg class="icon" width="20" height="20">
+                  <use href="img/sprite.svg#balance"></use>
+                </svg>
+              </button>
+              <img
+                src="img/scooter.png"
+                alt="Kugoo Kirin M4"
+                class="model-image"
+                loading="lazy"
+              />
+              <div class="model-content">
+                <h3 class="model-title">Kugoo Kirin M4</h3>
+                <div class="model-specs">
+                  <div class="model-specs-item">
+                    <svg class="specs-icon" width="18" height="18">
+                      <use href="img/sprite.svg#accumulator"></use>
+                    </svg>
+                    2000 mAh
+                  </div>
+                  <div class="model-specs-item">
+                    <svg class="specs-icon" width="18" height="18">
+                      <use href="img/sprite.svg#power"></use>
+                    </svg>
+                    1,2 л.с.
+                  </div>
+                  <div class="model-specs-item">
+                    <svg class="specs-icon" width="18" height="18">
+                      <use href="img/sprite.svg#speed"></use>
+                    </svg>
+                    60 км/ч
+                  </div>
+                  <div class="model-specs-item">
+                    <svg class="specs-icon" width="18" height="18">
+                      <use href="img/sprite.svg#timer"></use>
+                    </svg>
+                    5 часов
+                  </div>
+                </div>
+                <div class="model-info">
+                  <div class="model-price">
+                    <div class="model-price-old">39 900 ₽</div>
+                    <div class="model-price-new">29 900 ₽</div>
+                  </div>
+                  <div class="model-actions">
+                    <a href="#" class="model-action" aria-label="В корзину">
+                      <svg class="model-icon" width="20" height="20">
+                        <use href="img/sprite.svg#cart-purple"></use></svg
+                    ></a>
+                    <a href="#" class="model-action" aria-label="В избранное">
+                      <svg class="model-icon" width="20" height="20">
+                        <use href="img/sprite.svg#heart-purple"></use>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <a href="#test-drive" class="button model-button"
+                  >Записаться на тест-драйв</a
+                >
+              </div>
+            </div>
+
+            <div class="model-card">
+              <span class="model-label model-label-new">Новинка</span>
+              <button
+                class="model-favorite"
+                type="button"
+                aria-label="Добавить к сравнению"
+              >
+                <svg class="icon" width="20" height="20">
+                  <use href="img/sprite.svg#balance"></use>
+                </svg>
+              </button>
+              <img
+                src="img/scooter.png"
+                alt="Kugoo Kirin M4"
+                class="model-image"
+                loading="lazy"
+              />
+              <div class="model-content">
+                <h3 class="model-title">Kugoo Kirin M4</h3>
+                <div class="model-specs">
+                  <div class="model-specs-item">
+                    <svg class="specs-icon" width="18" height="18">
+                      <use href="img/sprite.svg#accumulator"></use>
+                    </svg>
+                    2000 mAh
+                  </div>
+                  <div class="model-specs-item">
+                    <svg class="specs-icon" width="18" height="18">
+                      <use href="img/sprite.svg#power"></use>
+                    </svg>
+                    1,2 л.с.
+                  </div>
+                  <div class="model-specs-item">
+                    <svg class="specs-icon" width="18" height="18">
+                      <use href="img/sprite.svg#speed"></use>
+                    </svg>
+                    60 км/ч
+                  </div>
+                  <div class="model-specs-item">
+                    <svg class="specs-icon" width="18" height="18">
+                      <use href="img/sprite.svg#timer"></use>
+                    </svg>
+                    5 часов
+                  </div>
+                </div>
+                <div class="model-info">
+                  <div class="model-price">
+                    <div class="model-price-old">39 900 ₽</div>
+                    <div class="model-price-new">29 900 ₽</div>
+                  </div>
+                  <div class="model-actions">
+                    <a href="#" class="model-action" aria-label="В корзину">
+                      <svg class="model-icon" width="20" height="20">
+                        <use href="img/sprite.svg#cart-purple"></use></svg
+                    ></a>
+                    <a href="#" class="model-action" aria-label="В избранное">
+                      <svg class="model-icon" width="20" height="20">
+                        <use href="img/sprite.svg#heart-purple"></use>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <a href="#test-drive" class="button model-button"
+                  >Записаться на тест-драйв</a
+                >
+              </div>
+            </div>
+
+            <div class="model-card">
+              <span class="model-label model-label-hit">ХИТ</span>
+              <button
+                class="model-favorite"
+                type="button"
+                aria-label="Добавить к сравнению"
+              >
+                <svg class="icon" width="20" height="20">
+                  <use href="img/sprite.svg#balance"></use>
+                </svg>
+              </button>
+              <img
+                src="img/scooter.png"
+                alt="Kugoo Kirin M4"
+                class="model-image"
+                loading="lazy"
+              />
+              <div class="model-content">
+                <h3 class="model-title">Kugoo Kirin M4</h3>
+                <div class="model-specs">
+                  <div class="model-specs-item">
+                    <svg class="specs-icon" width="18" height="18">
+                      <use href="img/sprite.svg#accumulator"></use>
+                    </svg>
+                    2000 mAh
+                  </div>
+                  <div class="model-specs-item">
+                    <svg class="specs-icon" width="18" height="18">
+                      <use href="img/sprite.svg#power"></use>
+                    </svg>
+                    1,2 л.с.
+                  </div>
+                  <div class="model-specs-item">
+                    <svg class="specs-icon" width="18" height="18">
+                      <use href="img/sprite.svg#speed"></use>
+                    </svg>
+                    60 км/ч
+                  </div>
+                  <div class="model-specs-item">
+                    <svg class="specs-icon" width="18" height="18">
+                      <use href="img/sprite.svg#timer"></use>
+                    </svg>
+                    5 часов
+                  </div>
+                </div>
+                <div class="model-info">
+                  <div class="model-price">
+                    <div class="model-price-old">39 900 ₽</div>
+                    <div class="model-price-new">29 900 ₽</div>
+                  </div>
+                  <div class="model-actions">
+                    <a href="#" class="model-action" aria-label="В корзину">
+                      <svg class="model-icon" width="20" height="20">
+                        <use href="img/sprite.svg#cart-purple"></use></svg
+                    ></a>
+                    <a href="#" class="model-action" aria-label="В избранное">
+                      <svg class="model-icon" width="20" height="20">
+                        <use href="img/sprite.svg#heart-purple"></use>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <a href="#test-drive" class="button model-button"
+                  >Записаться на тест-драйв</a
+                >
+              </div>
+            </div>
+
+            <div class="model-card">
+              <span class="model-label model-label-new">Новинка</span>
+              <button
+                class="model-favorite"
+                type="button"
+                aria-label="Добавить к сравнению"
+              >
+                <svg class="icon" width="20" height="20">
+                  <use href="img/sprite.svg#balance"></use>
+                </svg>
+              </button>
+              <img
+                src="img/scooter.png"
+                alt="Kugoo Kirin M4"
+                class="model-image"
+                loading="lazy"
+              />
+              <div class="model-content">
+                <h3 class="model-title">Kugoo Kirin M4</h3>
+                <div class="model-specs">
+                  <div class="model-specs-item">
+                    <svg class="specs-icon" width="18" height="18">
+                      <use href="img/sprite.svg#accumulator"></use>
+                    </svg>
+                    2000 mAh
+                  </div>
+                  <div class="model-specs-item">
+                    <svg class="specs-icon" width="18" height="18">
+                      <use href="img/sprite.svg#power"></use>
+                    </svg>
+                    1,2 л.с.
+                  </div>
+                  <div class="model-specs-item">
+                    <svg class="specs-icon" width="18" height="18">
+                      <use href="img/sprite.svg#speed"></use>
+                    </svg>
+                    60 км/ч
+                  </div>
+                  <div class="model-specs-item">
+                    <svg class="specs-icon" width="18" height="18">
+                      <use href="img/sprite.svg#timer"></use>
+                    </svg>
+                    5 часов
+                  </div>
+                </div>
+                <div class="model-info">
+                  <div class="model-price">
+                    <div class="model-price-old">39 900 ₽</div>
+                    <div class="model-price-new">29 900 ₽</div>
+                  </div>
+                  <div class="model-actions">
+                    <a href="#" class="model-action" aria-label="В корзину">
+                      <svg class="model-icon" width="20" height="20">
+                        <use href="img/sprite.svg#cart-purple"></use></svg
+                    ></a>
+                    <a href="#" class="model-action" aria-label="В избранное">
+                      <svg class="model-icon" width="20" height="20">
+                        <use href="img/sprite.svg#heart-purple"></use>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <a href="#test-drive" class="button model-button"
+                  >Записаться на тест-драйв</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section cta">
+        <div class="cta-container">
+          <div class="cta-container-wrapper">
+            <div class="cta-card">
+              <div class="cta-content">
+                <h2 class="cta-title">
+                  Нет нужной модели, которую хотите протестировать?
+                </h2>
+                <p class="cta-text">
+                  Оставьте заявку, и менеджер подберет нужный самокат
+                </p>
+                <form class="cta-form" action="#" method="post">
+                  <div class="cta-form-wrapper">
+                    <div class="cta-form-input">
+                      <input
+                        id="cta-phone"
+                        class="cta-input phone-mask"
+                        type="tel"
+                        name="phone"
+                        placeholder="+7 (___) ___ - __ - __"
+                        autocomplete="tel"
+                        inputmode="numeric"
+                        required
+                      />
+                      <label class="visually-hidden" for="cta-phone"
+                        >Номер телефона</label
+                      >
+                    </div>
+                    <div class="cta-form-button">
+                      <button class="button cta-button" type="submit">
+                        Оставить заявку на тест-драйв
+                      </button>
+                    </div>
+                  </div>
+                </form>
+                <label class="cta-agreement">
+                  <input type="checkbox" required />
+                  <span>
+                    Нажимая на кнопку, вы соглашаетесь на обработку персональных
+                    данных и
+                    <a href="#">политикой конфиденциальности</a></span
+                  >
+                </label>
+              </div>
+
+              <img
+                src="img/cta-manager.png"
+                alt="Менеджер KUGOO"
+                class="cta-image"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section subscribe">
+        <div class="container">
+          <div class="subscribe-wrapper">
+            <h2 class="subscribe-title">
+              Оставьте свою почту и&nbsp;станьте первым, кто получит скидку
+              на&nbsp;новые самокаты
+            </h2>
+            <form class="subscribe-form" action="#" method="post">
+              <label class="visually-hidden" for="subscribe-email"
+                >Ваш email</label
+              >
+              <input
+                id="subscribe-email"
+                class="subscribe-input"
+                type="email"
+                name="email"
+                placeholder="Введите Ваш email"
+                required
+              />
+              <button class="button subscribe-button" type="submit">
+                Подписаться
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contacts">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-menu footer-menu-catalog">
+            <h3 class="footer-menu-title">Каталог товаров</h3>
+            <ul class="footer-menu-list">
+              <li class="footer-menu-item">
+                <a href="#models" class="footer-menu-link">Электросамокаты</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#models" class="footer-menu-link">Электроскутеры</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#models" class="footer-menu-link">Электровелосипеды</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-menu footer-menu-column">
+            <h3 class="footer-menu-title">Покупателям</h3>
+            <ul class="footer-menu-list footer-menu-column-2">
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link">Сервисный центр</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link">Блог</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link">Доставка и оплата</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#test-drive" class="footer-menu-link"
+                  >Сотрудничество</a
+                >
+              </li>
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link">Рассрочка</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#contacts" class="footer-menu-link">Контакты</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#test-drive" class="footer-menu-link">Тест-драйв</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#models" class="footer-menu-link">Акции</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-menu footer-contact">
+            <div class="footer-contacts-top">
+              <h3 class="footer-menu-title">Контакты</h3>
+              <a href="#test-drive" class="footer-callback">Заказать звонок</a>
+            </div>
+            <div class="footer-contacts">
+              <div class="footer-contacts-item">
+                <div class="footer-contacts-label">Call-центр</div>
+                <a href="tel:+78005055461" class="footer-phone"
+                  >+7 (800) 505-54-61</a
+                >
+                <div class="footer-hours">Пн-Вс 10:00 - 20:00</div>
+              </div>
+              <div class="footer-contacts-item">
+                <div class="footer-contacts-label">Сервисный центр</div>
+                <a href="tel:+74993507692" class="footer-phone"
+                  >+7 (499) 350-76-92</a
+                >
+                <div class="footer-hours">Пн-Вс 10:00 - 20:00</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <div class="footer-brand">
+          <span class="footer-logo">KUGOO</span>
+          <div class="footer-stores">
+            <a href="#" class="footer-store">
+              <img
+                src="img/Badge google play.png"
+                alt="Google Play"
+                width="151.46"
+                height="45"
+              />
+            </a>
+            <a href="#" class="footer-store">
+              <img
+                src="img/App store.png"
+                alt="App store"
+                width="134.62"
+                height="45"
+              />
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-socials">
+          <a href="#" class="footer-social">
+            <svg class="footer-icon" width="20" height="20">
+              <use href="img/sprite.svg#vk"></use>
+            </svg>
+            <span>Вконтакте<br /><small>3 300</small></span>
+          </a>
+          <a href="#" class="footer-social">
+            <svg class="footer-icon" width="20" height="20">
+              <use href="img/sprite.svg#youtube"></use>
+            </svg>
+            <span>YouTube<br /><small>3 603</small></span>
+          </a>
+          <a href="#" class="footer-social">
+            <svg class="footer-icon" width="20" height="20">
+              <use href="img/sprite.svg#telega"></use>
+            </svg>
+            <span>Telegram<br /><small>432</small></span>
+          </a>
+        </div>
+      </div>
+
+      <div class="container footer-legal">
+        <div class="footer-legal-links">
+          <a href="#">Реквизиты</a>
+          <a href="#">Политика конфиденциальности</a>
+        </div>
+        <div class="footer-payments">
+          <img src="img/google_pay.png" alt="G Pay" loading="lazy" />
+          <img src="img/apple_pay.png" alt="Apple Pay" />
+          <img src="img/visa.png" alt="Visa" />
+          <img src="img/master.png" alt="Mastercard" />
+          <img src="img/maestro.png" alt="Maestro" />
+          <img src="img/webmoney.png" alt="WebMoney" />
+          <img src="img/qiwi.png" alt="QIWI" />
+        </div>
+        <div class="footer-chat">
+          <span>Online чат:</span>
+          <svg class="icon" width="16" height="16">
+            <use href="img/sprite.svg#viber"></use>
+          </svg>
+          <svg class="icon" width="16" height="16">
+            <use href="img/sprite.svg#whatsapp"></use>
+          </svg>
+          <svg class="icon" width="16" height="16">
+            <use href="img/sprite.svg#telegram"></use>
+          </svg>
+        </div>
+      </div>
+    </footer>
+    <div class="testdrive-modal-overlay" id="testdriveModalOverlay">
+      <div
+        class="testdrive-modal"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="testdriveModalTitle"
+      >
+        <button
+          class="testdrive-modal-close"
+          type="button"
+          id="testdriveModalClose"
+          aria-label="Закрыть"
+        >
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+            <path
+              d="M1 1L17 17M17 1L1 17"
+              stroke="#282739"
+              stroke-width="1.6"
+              stroke-linecap="round"
+            />
+          </svg>
+        </button>
+
+        <div class="testdrive-modal-content">
+          <h2 class="testdrive-modal-title" id="testdriveModalTitle">
+            Запишитесь на&nbsp;тест-драйв электросамоката
+          </h2>
+          <p class="testdrive-modal-subtitle">и подберите модель для себя</p>
+          <p class="testdrive-modal-text">
+            Менеджер свяжется с вами в&nbsp;течение 5&nbsp;минут, чтобы
+            согласовать время.
+          </p>
+
+          <form class="testdrive-modal-form" action="#" method="post">
+            <label class="testdrive-modal-label" for="testdrive-phone">
+              Как с вами удобнее связаться?
+            </label>
+            <input
+              id="testdrive-phone"
+              class="testdrive-modal-input phone-mask"
+              type="tel"
+              name="phone"
+              placeholder="+7 (___) ___ - __ - __"
+              autocomplete="tel"
+              inputmode="numeric"
+              required
+            />
+
+            <button class="button testdrive-modal-submit" type="submit">
+              Оформить предзаказ
+            </button>
+
+            <label class="testdrive-modal-agreement">
+              <input type="checkbox" required />
+              <span>
+                Нажимая на кнопку, вы соглашаетесь на обработку персональных
+                данных и <a href="#">политикой конфиденциальности</a>
+              </span>
+            </label>
+          </form>
+        </div>
+
+        <img
+          src="img/testdrive-modal.png"
+          alt="Тест-драйв электросамоката"
+          class="testdrive-modal-image"
+          loading="lazy"
+        />
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
